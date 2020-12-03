@@ -1,0 +1,41 @@
+.collection-item {
+  /* cursor: pointer; */
+}
+
+.row {
+  margin-bottom: 4px;
+}
+
+.news-title {
+  font-size: 1.5rem;
+}
+
+.favourite-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.read-icon {
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+  .news-title {
+    font-size: 1.2rem;
+  }
+
+  .news-snippet {
+    font-size: 0.85rem;
+  }
+
+  .read-icon {
+    font-size: 2rem;
+  }
+}
+
+.show-details {
+  margin-top: 20px;
+}
